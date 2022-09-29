@@ -3,6 +3,7 @@
     margin: 0;
     line-height: 0;
     gap: 0;
+    justify-content: center;
 }
 
 /* CSS */
@@ -119,7 +120,14 @@ body{
     justify-content: space-around;
 }
 
+.quote-area{
+    display: flex;
+}
 
 .quote{
     padding: 20px;
+    line-height: normal;
+    font-family: 'Courier New', Courier, monospace;
+    width: 860px;
+    overflow-wrap: normal;
 }
