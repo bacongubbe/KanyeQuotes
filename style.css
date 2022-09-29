@@ -12,7 +12,7 @@
   width: 150px;
   height: 76px;
   line-height: 78px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Bebas Neue', sans-serif;
   background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
   border: 0;
@@ -107,9 +107,9 @@
   }
 }
 
-body{
-    display: flex;
+main{
     text-align: center;
+    width: 100vw;
 }
 
 .button-bar {
@@ -117,6 +117,7 @@ body{
     position:fixed;
     gap: 50px;
     padding: 25px;
+    margin-left: 15px;
     justify-content: space-around;
 }
 
